@@ -8,3 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+- `build`: Builds the app
+- `eject`: Ejects the app from using react-scripts
+- `format`: Formats the code using Prettier
+- `format-watch`: Formats the code using Prettier in watch mode
+- `start`: Starts the app in development mode
+- `test`: Runs the tests in watch mode
