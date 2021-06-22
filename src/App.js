@@ -1,4 +1,5 @@
 import React from 'react';
+import { NonInteractiveCardExample } from './NonInteractiveCardExample';
 import { ClickableCardExample } from './ClickableCardExample';
 import './App.css';
 
@@ -8,9 +9,9 @@ export const App = () => (
     <hr />
     <h2>Non-Interactive Content</h2>
     <h3>Bad Example</h3>
-    <ClickableCardExample />
+    <NonInteractiveCardExample />
     <h3>Good Example</h3>
-    <ClickableCardExample />
+    <NonInteractiveCardExample />
     <hr />
     <h2>Entire Card is Clickable</h2>
     <h3>Bad Example</h3>

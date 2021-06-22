@@ -3,7 +3,8 @@
   width: 100%;
 }
 
-.card a {
+.card a,
+.card .cardContentNoLink {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -14,9 +15,12 @@
   border-radius: 0.25rem;
   background: #fff;
   padding: 1.5rem;
-  text-decoration: none;
   color: #000;
   transition: transform 0.1s linear 0s;
+}
+
+.card a {
+  text-decoration: none;
 }
 
 .card a:hover,
