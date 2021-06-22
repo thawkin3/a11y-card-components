@@ -1,7 +1,7 @@
-import { render, screen } from "@testing-library/react";
-import { App } from "./App";
+import { render, screen } from '@testing-library/react';
+import { App } from './App';
 
-test("renders the page header", () => {
+test('renders the page header', () => {
   render(<App />);
-  expect(screen.getByText("Accessible Card Components")).toBeInTheDocument();
+  expect(screen.getByText('Accessible Card Components')).toBeInTheDocument();
 });
