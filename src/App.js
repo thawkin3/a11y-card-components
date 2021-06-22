@@ -1,13 +1,27 @@
+import React from 'react';
+import { ClickableCardExample } from './ClickableCardExample';
 import './App.css';
 
 export const App = () => (
   <main>
-    <header>
-      <h1>Accessible Card Components</h1>
-      <h2>Bad Examples</h2>
-      <p>Bad content goes here</p>
-      <h2>Good Examples</h2>
-      <p>Good content goes here</p>
-    </header>
+    <h1>Accessible Card Components</h1>
+    <hr />
+    <h2>Non-Interactive Content</h2>
+    <h3>Bad Example</h3>
+    <ClickableCardExample />
+    <h3>Good Example</h3>
+    <ClickableCardExample />
+    <hr />
+    <h2>Entire Card is Clickable</h2>
+    <h3>Bad Example</h3>
+    <ClickableCardExample />
+    <h3>Good Example</h3>
+    <ClickableCardExample />
+    <hr />
+    <h2>Entire Card is Clickable AND There's Nested Interactive Content</h2>
+    <h3>Bad Example</h3>
+    <ClickableCardExample />
+    <h3>Good Example</h3>
+    <ClickableCardExample />
   </main>
 );
