@@ -1,14 +1,13 @@
 import React from 'react';
-import { Card } from './Card.js';
+import { NonInteractiveCardBad } from './NonInteractiveCardBad.js';
 import logo from './logo.svg';
 import './NonInteractiveCardBadExample.css';
 
 export const NonInteractiveCardBadExample = () => (
   <div className="cards-container">
-    <Card
+    <NonInteractiveCardBad
       title="Learn React"
       imageUrl={logo}
-      imageAlt="React Logo"
       bodyContent={cardContent}
     />
   </div>
