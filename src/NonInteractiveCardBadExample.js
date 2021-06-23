@@ -1,9 +1,9 @@
 import React from 'react';
 import { Card } from './Card.js';
 import logo from './logo.svg';
-import './NonInteractiveCardExample.css';
+import './NonInteractiveCardBadExample.css';
 
-export const NonInteractiveCardExample = () => (
+export const NonInteractiveCardBadExample = () => (
   <div className="cards-container">
     <Card
       title="Learn React"

@@ -1,13 +1,12 @@
 import React from 'react';
 import { Card } from './Card.js';
 import logo from './logo.svg';
-import './ClickableCardExample.css';
+import './NonInteractiveCardGoodExample.css';
 
-export const ClickableCardExample = () => (
+export const NonInteractiveCardGoodExample = () => (
   <div className="cards-container">
     <Card
       title="Learn React"
-      mainLink="https://reactjs.org/"
       imageUrl={logo}
       imageAlt="React Logo"
       bodyContent={cardContent}

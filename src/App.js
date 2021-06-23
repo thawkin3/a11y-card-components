@@ -1,6 +1,10 @@
 import React from 'react';
-import { NonInteractiveCardExample } from './NonInteractiveCardExample';
-import { ClickableCardExample } from './ClickableCardExample';
+import { NonInteractiveCardBadExample } from './NonInteractiveCardBadExample';
+import { NonInteractiveCardGoodExample } from './NonInteractiveCardGoodExample';
+import { ClickableCardBadExample } from './ClickableCardBadExample';
+import { ClickableCardGoodExample } from './ClickableCardGoodExample';
+import { NestedClickableCardBadExample } from './NestedClickableCardBadExample';
+import { NestedClickableCardGoodExample } from './NestedClickableCardGoodExample';
 import './App.css';
 
 export const App = () => (
@@ -9,20 +13,20 @@ export const App = () => (
     <hr />
     <h2>Non-Interactive Content</h2>
     <h3>Bad Example</h3>
-    <NonInteractiveCardExample />
+    <NonInteractiveCardBadExample />
     <h3>Good Example</h3>
-    <NonInteractiveCardExample />
+    <NonInteractiveCardGoodExample />
     <hr />
     <h2>Entire Card is Clickable</h2>
     <h3>Bad Example</h3>
-    <ClickableCardExample />
+    <ClickableCardBadExample />
     <h3>Good Example</h3>
-    <ClickableCardExample />
+    <ClickableCardGoodExample />
     <hr />
     <h2>Entire Card is Clickable AND There's Nested Interactive Content</h2>
     <h3>Bad Example</h3>
-    <ClickableCardExample />
+    <NestedClickableCardBadExample />
     <h3>Good Example</h3>
-    <ClickableCardExample />
+    <NestedClickableCardGoodExample />
   </main>
 );
