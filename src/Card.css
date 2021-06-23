@@ -1,16 +1,18 @@
 .card {
   display: block;
   width: 100%;
+  position: relative;
+  margin-bottom: 2rem;
 }
 
-.card a,
-.card .cardContentNoLink {
+.card a.linkWrapper,
+.card .cardContentNoLink,
+.card .cardContentWithNestedInteractiveContent {
   display: flex;
   flex-direction: row;
   width: 100%;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 2rem;
   box-shadow: rgba(0, 0, 0, 0.15) 0 0.1875rem 0.375rem 0;
   border-radius: 0.25rem;
   background: #fff;
@@ -23,10 +25,33 @@
   text-decoration: none;
 }
 
-.card a:hover,
-.card a:focus {
-  transform: scale(1.05);
+.card a:visited {
+  color: #000;
+}
+
+.card a.linkWrapper:hover,
+.card a.linkWrapper:focus {
   outline: none;
+  box-shadow: 0 0 0 0.25rem;
+}
+
+.card .cardContentWithNestedInteractiveContent a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0.25rem;
+}
+
+.card .cardContentWithNestedInteractiveContent a:focus {
+  outline: none;
+}
+
+.card .cardContentWithNestedInteractiveContent a:focus::after,
+.card .cardContentWithNestedInteractiveContent a:hover::after {
+  box-shadow: 0 0 0 0.25rem;
 }
 
 .card .content {

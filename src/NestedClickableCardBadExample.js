@@ -33,7 +33,7 @@ const cardContent = (
       ac posuere nunc mi vitae turpis. Pellentesque nibh ex, euismod et varius
       eget, vulputate vel odio. Phasellus auctor malesuada lacus eget ultricies.
     </p>
-    <button className="button" onClick={() => alert('Clicked!')}>
+    <button className="button outline" onClick={() => alert('Clicked!')}>
       Learn More
     </button>
   </>
