@@ -14,3 +14,7 @@ In the project directory, you can run:
 - `format-watch`: Formats the code using Prettier in watch mode
 - `start`: Starts the app in development mode
 - `test`: Runs the tests in watch mode
+
+## Resources
+
+- [Inclusive Components - Cards](https://inclusive-components.design/cards/)
