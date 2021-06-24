@@ -19,6 +19,9 @@ export const NonInteractiveCardBadExample = () => (
   </div>
 );
 
+// ISSUES:
+// - container should be an <ol> list element
+
 const reactCardContent = (
   <>
     <p>Check out the React docs. Learn React. Build cool stuff!</p>

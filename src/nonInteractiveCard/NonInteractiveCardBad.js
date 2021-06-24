@@ -11,8 +11,8 @@ export const NonInteractiveCardBad = ({ title, imageUrl, bodyContent }) => (
   </div>
 );
 
-// ISSUES
-// - missing heading element
+// ISSUES:
+// - title should be a heading element
 // - missing image alt attribute
 // - image order, should be placed after the heading
-// - cards should be a list
+// - cards should be a list item <li> element
