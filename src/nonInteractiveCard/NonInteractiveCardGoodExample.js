@@ -1,21 +1,19 @@
 import React from 'react';
-import { ClickableCardBad } from './ClickableCardBad.js';
-import reactLogo from './reactLogo.svg';
-import accessibilityLogo from './accessibilityLogo.png';
-import './ClickableCardBadExample.css';
+import { Card } from '../Card.js';
+import reactLogo from '../reactLogo.svg';
+import accessibilityLogo from '../accessibilityLogo.png';
+import './NonInteractiveCardGoodExample.css';
 
-export const ClickableCardBadExample = () => (
+export const NonInteractiveCardGoodExample = () => (
   <ol className="cards-container">
-    <ClickableCardBad
+    <Card
       title="Learn React"
-      mainLink="https://reactjs.org/"
       imageUrl={reactLogo}
       imageAlt="React Logo"
       bodyContent={reactCardContent}
     />
-    <ClickableCardBad
+    <Card
       title="Learn Accessibility"
-      mainLink="https://www.w3.org/TR/WCAG21/"
       imageUrl={accessibilityLogo}
       imageAlt="Accessibility Logo"
       bodyContent={accessibilityCardContent}

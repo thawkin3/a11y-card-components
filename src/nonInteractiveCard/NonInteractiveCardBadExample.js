@@ -1,7 +1,7 @@
 import React from 'react';
 import { NonInteractiveCardBad } from './NonInteractiveCardBad.js';
-import reactLogo from './reactLogo.svg';
-import accessibilityLogo from './accessibilityLogo.png';
+import reactLogo from '../reactLogo.svg';
+import accessibilityLogo from '../accessibilityLogo.png';
 import './NonInteractiveCardBadExample.css';
 
 export const NonInteractiveCardBadExample = () => (

@@ -1,10 +1,10 @@
 import React from 'react';
-import { NonInteractiveCardBadExample } from './NonInteractiveCardBadExample';
-import { NonInteractiveCardGoodExample } from './NonInteractiveCardGoodExample';
-import { ClickableCardBadExample } from './ClickableCardBadExample';
-import { ClickableCardGoodExample } from './ClickableCardGoodExample';
-import { NestedClickableCardBadExample } from './NestedClickableCardBadExample';
-import { NestedClickableCardGoodExample } from './NestedClickableCardGoodExample';
+import { NonInteractiveCardBadExample } from './nonInteractiveCard/NonInteractiveCardBadExample';
+import { NonInteractiveCardGoodExample } from './nonInteractiveCard/NonInteractiveCardGoodExample';
+import { ClickableCardBadExample } from './clickableCard/ClickableCardBadExample';
+import { ClickableCardGoodExample } from './clickableCard/ClickableCardGoodExample';
+import { NestedClickableCardBadExample } from './nestedClickableCard/NestedClickableCardBadExample';
+import { NestedClickableCardGoodExample } from './nestedClickableCard/NestedClickableCardGoodExample';
 import './App.css';
 
 export const App = () => (

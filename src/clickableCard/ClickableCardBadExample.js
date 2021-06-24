@@ -1,26 +1,24 @@
 import React from 'react';
-import { Card } from './Card.js';
-import reactLogo from './reactLogo.svg';
-import accessibilityLogo from './accessibilityLogo.png';
-import './NestedClickableCardGoodExample.css';
+import { ClickableCardBad } from './ClickableCardBad.js';
+import reactLogo from '../reactLogo.svg';
+import accessibilityLogo from '../accessibilityLogo.png';
+import './ClickableCardBadExample.css';
 
-export const NestedClickableCardGoodExample = () => (
+export const ClickableCardBadExample = () => (
   <ol className="cards-container">
-    <Card
+    <ClickableCardBad
       title="Learn React"
       mainLink="https://reactjs.org/"
       imageUrl={reactLogo}
       imageAlt="React Logo"
       bodyContent={reactCardContent}
-      hasNestedInteractiveContent
     />
-    <Card
+    <ClickableCardBad
       title="Learn Accessibility"
       mainLink="https://www.w3.org/TR/WCAG21/"
       imageUrl={accessibilityLogo}
       imageAlt="Accessibility Logo"
       bodyContent={accessibilityCardContent}
-      hasNestedInteractiveContent
     />
   </ol>
 );
@@ -43,9 +41,6 @@ const reactCardContent = (
       ac posuere nunc mi vitae turpis. Pellentesque nibh ex, euismod et varius
       eget, vulputate vel odio. Phasellus auctor malesuada lacus eget ultricies.
     </p>
-    <button className="button outline" onClick={() => alert('Clicked!')}>
-      Learn More
-    </button>
   </>
 );
 
@@ -70,8 +65,5 @@ const accessibilityCardContent = (
       ac posuere nunc mi vitae turpis. Pellentesque nibh ex, euismod et varius
       eget, vulputate vel odio. Phasellus auctor malesuada lacus eget ultricies.
     </p>
-    <button className="button outline" onClick={() => alert('Clicked!')}>
-      Learn More
-    </button>
   </>
 );
