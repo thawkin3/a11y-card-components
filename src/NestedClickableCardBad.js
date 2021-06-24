@@ -1,14 +1,14 @@
 import React from 'react';
-import './ClickableCardBad.css';
+import './NestedClickableCardBad.css';
 
-export const ClickableCardBad = ({
+export const NestedClickableCardBad = ({
   title,
   imageUrl,
   imageAlt,
   bodyContent,
   mainLink,
 }) => (
-  <li className="clickableCardBad">
+  <li className="nestedClickableCardBad">
     <a href={mainLink} className="linkWrapper">
       <div className="content">
         <h3 className="title">{title}</h3>

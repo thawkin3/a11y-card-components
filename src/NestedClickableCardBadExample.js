@@ -1,18 +1,25 @@
 import React from 'react';
-import { Card } from './Card.js';
+import { NestedClickableCardBad } from './NestedClickableCardBad.js';
 import logo from './logo.svg';
 import './NestedClickableCardBadExample.css';
 
 export const NestedClickableCardBadExample = () => (
-  <div className="cards-container">
-    <Card
+  <ol className="cards-container">
+    <NestedClickableCardBad
       title="Learn React"
       mainLink="https://reactjs.org/"
       imageUrl={logo}
       imageAlt="React Logo"
       bodyContent={cardContent}
     />
-  </div>
+    <NestedClickableCardBad
+      title="Learn React"
+      mainLink="https://reactjs.org/"
+      imageUrl={logo}
+      imageAlt="React Logo"
+      bodyContent={cardContent}
+    />
+  </ol>
 );
 
 const cardContent = (

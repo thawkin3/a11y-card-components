@@ -4,14 +4,20 @@ import logo from './logo.svg';
 import './NonInteractiveCardGoodExample.css';
 
 export const NonInteractiveCardGoodExample = () => (
-  <div className="cards-container">
+  <ol className="cards-container">
     <Card
       title="Learn React"
       imageUrl={logo}
       imageAlt="React Logo"
       bodyContent={cardContent}
     />
-  </div>
+    <Card
+      title="Learn React"
+      imageUrl={logo}
+      imageAlt="React Logo"
+      bodyContent={cardContent}
+    />
+  </ol>
 );
 
 const cardContent = (

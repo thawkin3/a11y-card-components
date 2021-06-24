@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './NestedClickableCardGoodExample.css';
 
 export const NestedClickableCardGoodExample = () => (
-  <div className="cards-container">
+  <ol className="cards-container">
     <Card
       title="Learn React"
       mainLink="https://reactjs.org/"
@@ -13,7 +13,15 @@ export const NestedClickableCardGoodExample = () => (
       bodyContent={cardContent}
       hasNestedInteractiveContent
     />
-  </div>
+    <Card
+      title="Learn React"
+      mainLink="https://reactjs.org/"
+      imageUrl={logo}
+      imageAlt="React Logo"
+      bodyContent={cardContent}
+      hasNestedInteractiveContent
+    />
+  </ol>
 );
 
 const cardContent = (

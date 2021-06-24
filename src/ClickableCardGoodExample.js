@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './ClickableCardGoodExample.css';
 
 export const ClickableCardGoodExample = () => (
-  <div className="cards-container">
+  <ol className="cards-container">
     <Card
       title="Learn React"
       mainLink="https://reactjs.org/"
@@ -12,7 +12,14 @@ export const ClickableCardGoodExample = () => (
       imageAlt="React Logo"
       bodyContent={cardContent}
     />
-  </div>
+    <Card
+      title="Learn React"
+      mainLink="https://reactjs.org/"
+      imageUrl={logo}
+      imageAlt="React Logo"
+      bodyContent={cardContent}
+    />
+  </ol>
 );
 
 const cardContent = (

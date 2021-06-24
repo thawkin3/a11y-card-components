@@ -10,6 +10,11 @@ export const NonInteractiveCardBadExample = () => (
       imageUrl={logo}
       bodyContent={cardContent}
     />
+    <NonInteractiveCardBad
+      title="Learn React"
+      imageUrl={logo}
+      bodyContent={cardContent}
+    />
   </div>
 );
 

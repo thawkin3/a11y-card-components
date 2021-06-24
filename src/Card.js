@@ -45,5 +45,5 @@ export const Card = ({
     <div className="cardContentNoLink">{cardContentWithoutMainLink}</div>
   );
 
-  return <div className="card">{cardContent}</div>;
+  return <li className="card">{cardContent}</li>;
 };

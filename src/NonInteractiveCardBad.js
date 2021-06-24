@@ -15,3 +15,4 @@ export const NonInteractiveCardBad = ({ title, imageUrl, bodyContent }) => (
 // - missing heading element
 // - missing image alt attribute
 // - image order, should be placed after the heading
+// - cards should be a list
