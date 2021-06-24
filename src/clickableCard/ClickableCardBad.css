@@ -5,9 +5,7 @@
   margin-bottom: 2rem;
 }
 
-.clickableCardBad a.linkWrapper,
-.clickableCardBad .cardContentNoLink,
-.clickableCardBad .cardContentWithNestedInteractiveContent {
+.clickableCardBad {
   display: flex;
   flex-direction: row;
   width: 100%;

@@ -22,4 +22,5 @@ export const ClickableCardBad = ({
 // ISSUES
 // - anchor tag reads all the content, needs an aria-label
 //     (but then it ONLY reads the aria-label content, so beware)
+//     (an alternative would be to not wrap the whole card in a link)
 // - what about if there's more clickable content inside the card?

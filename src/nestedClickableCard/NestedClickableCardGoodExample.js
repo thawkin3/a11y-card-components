@@ -44,7 +44,7 @@ const reactCardContent = (
       eget, vulputate vel odio. Phasellus auctor malesuada lacus eget ultricies.
     </p>
     <button className="button outline" onClick={() => alert('Clicked!')}>
-      Learn More
+      Click Me
     </button>
   </>
 );
@@ -71,7 +71,7 @@ const accessibilityCardContent = (
       eget, vulputate vel odio. Phasellus auctor malesuada lacus eget ultricies.
     </p>
     <button className="button outline" onClick={() => alert('Clicked!')}>
-      Learn More
+      Click Me
     </button>
   </>
 );
