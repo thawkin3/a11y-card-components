@@ -2,6 +2,8 @@
   "name": "a11y-card-components",
   "version": "0.1.0",
   "private": true,
+  "description": "This project is meant to teach software engineers how to create accessible card components in React. It includes good examples and bad examples.",
+  "homepage": "http://tylerhawkins.info/a11y-card-components/build/",
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",

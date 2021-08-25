@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/a11y-card-components/build/static/css/main.28202847.chunk.css",
+    "main.js": "/a11y-card-components/build/static/js/main.e31ed2a5.chunk.js",
+    "main.js.map": "/a11y-card-components/build/static/js/main.e31ed2a5.chunk.js.map",
+    "runtime-main.js": "/a11y-card-components/build/static/js/runtime-main.607109c1.js",
+    "runtime-main.js.map": "/a11y-card-components/build/static/js/runtime-main.607109c1.js.map",
+    "static/js/2.25f8faf6.chunk.js": "/a11y-card-components/build/static/js/2.25f8faf6.chunk.js",
+    "static/js/2.25f8faf6.chunk.js.map": "/a11y-card-components/build/static/js/2.25f8faf6.chunk.js.map",
+    "index.html": "/a11y-card-components/build/index.html",
+    "static/css/main.28202847.chunk.css.map": "/a11y-card-components/build/static/css/main.28202847.chunk.css.map",
+    "static/js/2.25f8faf6.chunk.js.LICENSE.txt": "/a11y-card-components/build/static/js/2.25f8faf6.chunk.js.LICENSE.txt",
+    "static/media/accessibilityLogo.00857efe.png": "/a11y-card-components/build/static/media/accessibilityLogo.00857efe.png",
+    "static/media/reactLogo.4bdbcf83.svg": "/a11y-card-components/build/static/media/reactLogo.4bdbcf83.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.607109c1.js",
+    "static/js/2.25f8faf6.chunk.js",
+    "static/css/main.28202847.chunk.css",
+    "static/js/main.e31ed2a5.chunk.js"
+  ]
+}
