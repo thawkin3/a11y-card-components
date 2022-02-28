@@ -2,6 +2,8 @@
 
 This project is meant to teach software engineers how to create accessible card components in React. It includes good examples and bad examples.
 
+You can visit the demo app here: http://tylerhawkins.info/a11y-card-components/build/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
